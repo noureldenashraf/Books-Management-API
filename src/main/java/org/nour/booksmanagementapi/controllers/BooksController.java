@@ -22,4 +22,5 @@ public class BooksController {
     public List<Book> getAllBooks() {
         return books.findAll();
     }
+    // IMPLEMENT THE REST OF THE MAPPINGS AND ADD SECURITY AND HANDLE EXCEPTIONS FOR SURE
 }
